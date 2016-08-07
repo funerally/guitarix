@@ -25,7 +25,7 @@
 #ifndef SRC_HEADERS_GX_RESAMPLER_H_
 #define SRC_HEADERS_GX_RESAMPLER_H_
 
-#include <zita-resampler/resampler.h>
+#include <resampler.h>
 
 namespace gx_resample {
 

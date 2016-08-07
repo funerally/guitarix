@@ -14,7 +14,7 @@ def c_mat(w=False):
         flags.append('W')
     return np.ctypeslib.ndpointer(dtype=ct.c_double, ndim=2, flags=flags)
 
-slicot = ct.cdll.LoadLibrary("libslicot.so.0")
+slicot = ct.cdll.LoadLibrary("_wrapper.cpython-35m-x86_64-linux-gnu.so")
 
 ################################################################
 ## AB09AD
